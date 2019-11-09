@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,10 +8,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
 	<div class="page">
 		<header class="page__header">
-			<button class="nav-trigger" title="menu" type="button">Menu</button>
+			<div>
+				<button class="header__hamburguer" type="submit"><img src="/images/ico-menu.svg"
+						alt="boton-hamburguesa"></button>
+			</div>
+
 			<nav class="nav">
 				<ul class="nav__items">
 					<li class="nav__item"><a href="#motherboard" class="nav__link">Motherboard</a></li>
@@ -20,7 +26,7 @@
 					<li class="nav__item"><a href="#network-connection" class="nav__link">Network connection</a></li>
 					<li class="nav__item"><a href="#power-supply" class="nav__link">Power supply</a></li>
 				</ul>
-				<button class="nav-close" title="close" type="button">Close</button>
+				<button class="nav-close" title="close" type="button" src="/images/ico-close.svg"></button>
 			</nav>
 		</header>
 		<main class="page__main">
@@ -37,4 +43,5 @@
 	</div>
 	<script src="js/main.js" charset="utf-8"></script>
 </body>
+
 </html>
